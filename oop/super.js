@@ -6,33 +6,41 @@ class User{
     }
     login(){
         console.log(this.name + ' Login');
-        return this;
+
     }
     logout(){
         console.log('User Logout');
-        return this;
+
     }
     incScore(){
        console.log(++this.score);
-        return this;
     }
 } 
+
+
+
+
 class Admin extends User{
+ constructor(name,email, title){
+    super(name ,email);
+    this.title = title;
+ }
     deleteUser(user){
         users= users.filter(u=>user.name !== u.name)
     }
-    
 }
 
 
-const userOne = new User('Shaun' , 'shaun@gamil.com');
-const userTwo = new User('andrew' , 'andrew@gamil.com');
-const userThree = new User('Jim' , 'Jim@gamil.com');
-const admin = new Admin();
-// userOne.login().logout().incScore();
-let users = [userOne,userTwo,userThree];
-console.log(users);
 
-admin.deleteUser(userOne)
-console.log(users);
+
+const userOne = new User('Jim','Jim@gmail.com');
+const admin = new Admin('shark','shark@gmail.com','Admin class');
+
+console.log(userOne.logout());
+
+
+let logout = admin.logout();
+console.log(admin.logout());
+
+
 
