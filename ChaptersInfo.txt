@@ -1,0 +1,54 @@
+Chapter 1-5{
+    name: All Important Basic;
+    start: lession.1 
+    ends: lession.42
+}
+------------------------------------------------------------------
+Front End{
+    Chapter 6{
+        name : Interacting With Browser;
+        start: lession.43
+    }
+    Chapter 7{
+        name : Forms And Events;
+        start: lession.58
+    }
+    Chapter 8{
+        name : Forms And Events;
+        start: lession.64
+    }
+     Chapter 10{
+        name : todos app;
+        start: lession.77
+    }
+    Chapter 13{ Watch Only
+    name : Weather app; Watch Only
+    start: lession.99
+    }
+    Chapter 14{ Watch only
+        name : Local Storage;
+        start: lession.110
+    }
+
+}
+-------------------------------------------------------------------
+Important{
+    
+Chapter 9{
+    name : Array Methods;
+    start: lession.71
+}
+Chapter 11{
+    name : Dates & Time;
+    start: lession.82
+}
+Chapter 12{
+    name : Asynchtonous JavaScript;
+    start: lession.86
+}
+Chapter 15{
+    name : OOP in Javascript;
+    start: lession.115
+}
+}
+-------------------------------------------------------------------
